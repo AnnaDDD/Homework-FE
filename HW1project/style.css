@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+h1,h2{
+margin-bottom: 20px;
+font-size: 30px;
+}
+ul{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+li{
+    font-size: 20px;
+}
+table{
+    border: 1px solid black;
+}
+td, th{
+    font-size: 20px;
+    border: 1px solid black;
+}
+img{
+    width: 50px;
+}
