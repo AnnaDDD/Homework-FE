@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1ABC9C;
+    height: 70px;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+a:not(:last-child){
+    margin-right: 20px;
+}
+.social-icon:not(:last-child){
+    margin-right: 20px;
+}
+
+/*О нас*/
+
+.about{
+    display: flex;
+    align-items: center;
+}
+.about-img{
+    width: 50%;
+}
+.about-info{
+    padding: 0 65px;
+}
+h1{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Inter', sans-serif;
+}
+.about-descr{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Наши проекты*/
+
+.projects{
+    background-color: #DCFFEB;
+    padding: 125px 65px;
+}
+h2{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 50px;  
+}
+.projects-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.project{
+    background-image: url(../images/arena.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: calc(100% / 3 - 17px);
+    height: 378px;
+}
+.project-info{
+    visibility: hidden;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.project:hover .project-info {
+    visibility: visible;  
+}
+.project-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.project-descr{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*Footer*/
+
+h3{
+    margin-top:84px;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+.footer-info{
+   margin-top: 55px;
+    margin-bottom: 76px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.footer-descr{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;;
+}
+.color{
+    color: #F7654A;
+} 
+.footer-img{
+    display: block;
+    margin: auto;
+    margin-bottom: 36px;
+}
+
